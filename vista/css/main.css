@@ -6,6 +6,54 @@
     font-family: 'Inter', sans-serif;
 }
 
+/* HAMBURGUESA */
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.menu-toggle span {
+    width: 25px;
+    height: 2px;
+    background: white;
+    transition: 0.3s;
+}
+
+/* MENÚ LATERAL */
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 75%;
+    height: 100vh;
+    background: rgba(10, 10, 10, 0.97);
+    backdrop-filter: blur(15px);
+    display: flex;
+    flex-direction: column;
+    padding: 100px 30px;
+    gap: 25px;
+    transition: right 0.4s ease;
+    z-index: 999;
+}
+
+.mobile-menu a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.mobile-menu a:hover {
+    color: white;
+}
+
+/* ACTIVO */
+.mobile-menu.active {
+    right: 0;
+}
+
+
 body {
     background: #0a0a0a;
     color: #fff;
@@ -18,6 +66,7 @@ body {
     align-items: center;
     padding: 20px 40px;
 }
+
 
 .logo img {
     width: 110px;
@@ -181,7 +230,7 @@ body {
     content: "";
     position: absolute;
     inset: 0;
-    background: linear-gradient(to top, rgba(0,0,0,0.4), transparent);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.4), transparent);
 }
 
 /* ANIMACIÓN TEXTO */
@@ -236,11 +285,22 @@ footer p {
 /* 📱 MOBILE (hasta 768px) */
 /* ========================= */
 @media (max-width: 767px) {
-.logo{
-   margin-left: 30%;
+
+    #menu,
+    .nav-btn {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+
+    .logo {
+        margin-left: 30%;
 
 
-}
+    }
+
     .nav {
         padding: 15px 20px;
     }
@@ -332,4 +392,3 @@ footer p {
         height: 500px;
     }
 }
-

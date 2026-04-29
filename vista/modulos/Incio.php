@@ -1,4 +1,4 @@
-<title>Catalyst Studio</title>
+<title>Weblify</title>
 
 
 <!-- NAV -->
@@ -16,8 +16,21 @@
     </nav>
 
     <button class="nav-btn">INICIAR PROYECTO →</button>
+    <!-- BOTÓN HAMBURGUESA -->
+    <div class="menu-toggle" id="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
 </header>
-
+<!-- MENÚ MÓVIL -->
+<div class="mobile-menu" id="mobile-menu">
+    <a href="#">INDUSTRIAS</a>
+    <a href="#">PROCESO</a>
+    <a href="#">FILOSOFÍA</a>
+    <a href="#">CONTACTO</a>
+    <button class="nav-btn">INICIAR PROYECTO →</button>
+</div>
 <section class="hero">
 
     <!-- IZQUIERDA -->
@@ -54,7 +67,7 @@
         <div class="carousel-slide">
             <img src="vista\IMG\Proyecto 3.png" alt="">
         </div>
-         <div class="carousel-slide">
+        <div class="carousel-slide">
             <img src="vista\IMG\Proyecto 4.png" alt="">
         </div>
     </div>
