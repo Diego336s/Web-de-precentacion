@@ -12,7 +12,7 @@ if (isset($_GET["ruta"])) {
     }
 
 } else {
-    include_once "vista/modulos/Incio.php";
+    include_once "vista/modulos/Inicio.php";
 }
 
 include_once "vista/modulos/zpie.php";
