@@ -10,7 +10,7 @@
 
             <h1 class="hero-title">
                 Soberanía Digital <br>
-                <span>Para Pequeñas Empresas</span>
+                <span>Para Grandes Emprendedores</span>
             </h1>
 
             <p class="hero-sub">
