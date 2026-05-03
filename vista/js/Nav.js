@@ -13,3 +13,8 @@ document.querySelectorAll(".mobile-menu a").forEach(link => {
         mobileMenu.classList.remove("active");
     });
 });
+
+const iniciarProyecto = document.getElementById("iniciarProyecto");
+iniciarProyecto.addEventListener("click", () => {
+    window.location.href = "Contacto";
+});

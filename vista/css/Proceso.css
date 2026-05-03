@@ -1,0 +1,126 @@
+/* ========================= */
+/* 🚀 PROCESO */
+/* ========================= */
+.process-panel {
+    padding: 120px 40px;
+    background: #0a0a0a;
+}
+
+/* HERO */
+.process-hero {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.process-hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.process-hero p {
+    color: #aaa;
+}
+
+/* CONTENEDOR */
+.process-container {
+    position: relative;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* LÍNEA BASE */
+.process-line {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #222;
+    transform: translateY(-50%);
+    z-index: 0;
+}
+
+/* PROGRESO ANIMADO */
+.process-progress {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, #00c3ff, #7a00ff);
+    transition: width 0.6s ease;
+}
+
+/* PASOS */
+.process-steps {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    position: relative;
+    z-index: 2;
+}
+
+/* CARD */
+.step {
+    background: #111;
+    padding: 30px 20px;
+    border-radius: 12px;
+    border: 1px solid #222;
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+/* NÚMERO */
+.step-number {
+    font-size: 2.2rem;
+    font-weight: bold;
+    background: linear-gradient(45deg, #00c3ff, #7a00ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
+}
+
+/* TEXTO */
+.step h3 {
+    margin-bottom: 8px;
+}
+
+.step p {
+    color: #aaa;
+    font-size: 0.9rem;
+}
+
+/* HOVER */
+.step:hover {
+    transform: translateY(-8px) scale(1.02);
+    border-color: #7a00ff;
+    box-shadow: 0 0 25px rgba(122,0,255,0.3);
+}
+
+/* ANIMACIÓN SCROLL */
+.reveal {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: 0.6s ease;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* ========================= */
+/* 📱 MOBILE */
+/* ========================= */
+@media (max-width: 768px) {
+
+    .process-panel {
+        padding: 100px 20px;
+    }
+
+    .process-steps {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .process-line {
+        display: none;
+    }
+}

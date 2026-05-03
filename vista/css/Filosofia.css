@@ -1,0 +1,156 @@
+/* ========================= */
+/* 🧠 FILOSOFÍA */
+/* ========================= */
+.philosophy-panel {
+    padding: 120px 40px;
+    background: #0a0a0a;
+    position: relative;
+    overflow: hidden;
+}
+
+/* HERO */
+.philosophy-hero {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.philosophy-hero h2 {
+    font-size: 2.5rem;
+}
+
+.philosophy-hero p {
+    color: #aaa;
+}
+
+/* MENSAJE CENTRAL */
+.philosophy-core {
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.philosophy-core h1 {
+    font-size: 2.8rem;
+    line-height: 1.3;
+}
+
+.philosophy-core span {
+    background: linear-gradient(45deg, #00c3ff, #7a00ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* PRINCIPIOS */
+.philosophy-principles {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-bottom: 100px;
+}
+
+.principle {
+    background: #111;
+    border: 1px solid #222;
+    padding: 30px 20px;
+    border-radius: 12px;
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+/* ICONO */
+.icon {
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    margin-bottom: 15px;
+    background: linear-gradient(45deg, #00c3ff, #7a00ff);
+    border-radius: 50%;
+    opacity: 0.8;
+}
+
+/* TEXTO */
+.principle h3 {
+    margin-bottom: 8px;
+}
+
+.principle p {
+    font-size: 0.85rem;
+    color: #aaa;
+}
+
+/* HOVER */
+.principle:hover {
+    transform: translateY(-6px) scale(1.03);
+    border-color: #7a00ff;
+    box-shadow: 0 0 20px rgba(122,0,255,0.3);
+}
+
+/* MANIFIESTO */
+.philosophy-manifesto {
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+}
+
+.philosophy-manifesto p {
+    font-size: 1.3rem;
+    color: #ddd;
+    line-height: 1.5;
+}
+
+/* GLOW DECORATIVO */
+.philosophy-glow {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, rgba(122,0,255,0.2), transparent 70%);
+    top: -100px;
+    left: -100px;
+    filter: blur(100px);
+}
+
+/* ========================= */
+/* ✨ ANIMACIONES */
+/* ========================= */
+.reveal {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: 0.6s ease;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* ========================= */
+/* 📱 MOBILE */
+/* ========================= */
+@media(max-width:768px){
+
+    .philosophy-panel {
+        padding: 100px 20px;
+    }
+
+    .philosophy-core h1 {
+        font-size: 2rem;
+    }
+
+    .philosophy-principles {
+        grid-template-columns: 1fr;
+    }
+
+    .philosophy-manifesto p {
+        font-size: 1.1rem;
+    }
+}
+
+/* ========================= */
+/* 📲 TABLET */
+/* ========================= */
+@media(max-width:1024px){
+    .philosophy-principles {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
