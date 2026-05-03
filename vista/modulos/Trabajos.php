@@ -1,4 +1,5 @@
 <link rel='stylesheet' type='text/css' media='screen' href='vista\css\Trabajos.css'>
+<title>Trabajos - Weblify</title>
 <section class="portfolio-panel">
 
     <!-- HERO -->

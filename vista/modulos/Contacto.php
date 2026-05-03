@@ -1,4 +1,5 @@
 <link rel='stylesheet' type='text/css' media='screen' href='vista\css\Contacto.css'>
+<title>Contacto - Weblify</title>
 <section class="contact">
 
     <div class="contact-container">
