@@ -19,8 +19,9 @@
     <h2>Profecionales</h2>
     <p>Diego Andres Sanabria Perez - Analista y desarrollador de sofware</p>
 </footer>
-<script src='vista\js\main.js'></script>
+
 <script src='vista\js\Whatsapp.js'></script>
+<script src='vista\js\Nav.js'></script>
 </body>
 
 </html>
