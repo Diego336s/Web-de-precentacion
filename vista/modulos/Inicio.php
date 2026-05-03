@@ -23,7 +23,7 @@
 
         <div class="hero-buttons">
             <button id="btnTrabajemosJuntos" class="btn-primary">Trabajemos juntos</button>
-            <button class="btn-secondary">Ver trabajo</button>
+            <button id="btnTrabajos" class="btn-secondary">Ver trabajo</button>
         </div>
     </div>
 
