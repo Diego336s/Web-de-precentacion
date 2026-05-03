@@ -1,7 +1,7 @@
 <?php
 
 include_once "vista/modulos/1cabesera.php";
-include_once "vista\modulos\Nav.php";
+include_once "vista/modulos/Nav.php";
 if (isset($_GET["ruta"])) {
 
     $listaRutas = array("Inicio", "Contacto");
