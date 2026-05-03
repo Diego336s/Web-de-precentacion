@@ -7,7 +7,7 @@
     </div>
 
     <nav id="menu">
-        <a href="#">INDUSTRIAS</a>
+        <a href="Inicio">Inicio</a>
         <a href="#">PROCESO</a>
         <a href="#">FILOSOFÍA</a>
         <a href="Contacto">CONTACTO</a>
@@ -23,7 +23,7 @@
 </header>
 <!-- MENÚ MÓVIL -->
 <div class="mobile-menu" id="mobile-menu">
-    <a href="#">INDUSTRIAS</a>
+    <a href="Inicio">Inicio</a>
     <a href="#">PROCESO</a>
     <a href="#">FILOSOFÍA</a>
     <a href="Contacto">CONTACTO</a>
