@@ -1,0 +1,227 @@
+
+/* ========================= */
+/* 🚀 HERO */
+/* ========================= */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+    min-height: 100vh;
+    position: relative;
+}
+
+/* GLOW */
+.hero::before {
+    content: "";
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(circle, rgba(122,0,255,0.15), transparent 70%);
+    top: -150px;
+    right: -100px;
+    filter: blur(100px);
+}
+
+/* IZQUIERDA */
+.hero-left {
+    max-width: 600px;
+    z-index: 2;
+}
+
+.hero-tag {
+    color: #888;
+    font-size: 0.9rem;
+}
+
+.hero-title {
+    font-size: 3.5rem;
+    margin: 20px 0;
+    line-height: 1.2;
+}
+
+.hero-title span {
+    background: linear-gradient(45deg, #00c3ff, #7a00ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-sub {
+    color: #ccc;
+    margin-bottom: 15px;
+}
+
+.hero-desc {
+    color: #777;
+    font-size: 0.95rem;
+}
+
+/* BOTONES */
+.hero-buttons {
+    margin-top: 30px;
+}
+
+.btn-primary {
+    background: linear-gradient(45deg, #00c3ff, #7a00ff);
+    border: none;
+    padding: 14px 28px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    box-shadow: 0 0 20px rgba(122,0,255,0.6);
+    transform: translateY(-2px);
+}
+
+.btn-secondary {
+    margin-left: 15px;
+    background: transparent;
+    border: 1px solid #444;
+    padding: 14px 28px;
+    color: #aaa;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-secondary:hover {
+    border-color: #00c3ff;
+    color: white;
+}
+
+/* ========================= */
+/* 🎞️ CARRUSEL */
+/* ========================= */
+.carousel {
+    width: 100%;
+    max-width: 650px;
+    height: 420px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.8s ease;
+}
+
+.carousel-slide.active {
+    opacity: 1;
+}
+
+.carousel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ========================= */
+/* ✨ ANIMACIONES */
+/* ========================= */
+.hero-left > * {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeUp 1s forwards;
+}
+
+.hero-left > *:nth-child(1){animation-delay:.2s;}
+.hero-left > *:nth-child(2){animation-delay:.4s;}
+.hero-left > *:nth-child(3){animation-delay:.6s;}
+.hero-left > *:nth-child(4){animation-delay:.8s;}
+.hero-left > *:nth-child(5){animation-delay:1s;}
+
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ========================= */
+/* 📱 MOBILE */
+/* ========================= */
+@media (max-width: 767px) {
+
+    #menu,
+    .nav-btn {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: flex;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+
+    .nav {
+        justify-content: center;
+    }
+
+    .logo {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /* HERO */
+    .hero {
+        flex-direction: column;
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .hero-title {
+        font-size: 2.2rem;
+    }
+
+    .hero-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .btn-secondary {
+        margin-left: 0;
+    }
+
+    .carousel {
+        height: 240px;
+        margin-top: 30px;
+    }
+}
+
+/* ========================= */
+/* 📲 TABLET */
+/* ========================= */
+@media (max-width: 1024px) {
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .carousel {
+        margin-top: 40px;
+        height: 300px;
+    }
+}
+
+/* ========================= */
+/* 💻 GRANDE */
+/* ========================= */
+@media (min-width: 1200px) {
+    .hero-title {
+        font-size: 4rem;
+    }
+
+    .carousel {
+        height: 500px;
+    }
+}
