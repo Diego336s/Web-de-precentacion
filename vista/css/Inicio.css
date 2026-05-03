@@ -148,27 +148,7 @@
 /* ========================= */
 @media (max-width: 767px) {
 
-    #menu,
-    .nav-btn {
-        display: none;
-    }
-
-    .menu-toggle {
-        display: flex;
-        position: absolute;
-        right: 20px;
-        top: 20px;
-    }
-
-    .nav {
-        justify-content: center;
-    }
-
-    .logo {
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-    }
+  
 
     /* HERO */
     .hero {
