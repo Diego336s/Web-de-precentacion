@@ -26,6 +26,6 @@
     <a href="#">INDUSTRIAS</a>
     <a href="#">PROCESO</a>
     <a href="#">FILOSOFÍA</a>
-    <a href="#">CONTACTO</a>
+    <a href="Contacto">CONTACTO</a>
     <button class="nav-btn">INICIAR PROYECTO →</button>
 </div>
