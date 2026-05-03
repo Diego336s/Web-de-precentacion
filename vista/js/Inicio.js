@@ -23,4 +23,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Cambio automático cada 4 segundos
     setInterval(nextSlide, 4000);
+
+
+});
+
+const btnTrabajemosJuntos = document.getElementById("btnTrabajemosJuntos");
+btnTrabajemosJuntos.addEventListener("click", () => {
+    window.location.href = "Contacto";
 });

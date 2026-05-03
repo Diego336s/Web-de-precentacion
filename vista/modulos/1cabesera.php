@@ -8,6 +8,8 @@
 
     <meta name='viewport' content='width=device-width, initial-scale=1'>
 
+   
+
     <!-- Archivos personalizados -->
 
     <link rel='stylesheet' type='text/css' media='screen' href='vista/css/main.css'>

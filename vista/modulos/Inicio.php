@@ -22,7 +22,7 @@
         </p>
 
         <div class="hero-buttons">
-            <a href="Contacto" class="btn-primary">Trabajemos juntos</a>
+            <button id="btnTrabajemosJuntos" class="btn-primary">Trabajemos juntos</button>
             <button class="btn-secondary">Ver trabajo</button>
         </div>
     </div>
