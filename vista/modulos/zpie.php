@@ -17,7 +17,7 @@
 </div> -->
 <footer>
     <h2>Profesionales</h2>
-      <p>Andres Salcedo - Desarrollador y marketing</p>
+      <p>Andres Salcedo - Ingeniero de Marketing y desarrollador</p>
     <p>Diego Sanabria - Analista y desarrollador de software</p>
 </footer>
 
