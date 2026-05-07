@@ -16,7 +16,7 @@
             <input type="text" name="empresa" placeholder="Empresa">
             <textarea name="mensaje" placeholder="Cuéntanos tu proyecto..." required></textarea>
 
-            <button type="submit" id="submit-btn" class="btn-primary">
+            <button type="button" id="submit-btn" class="btn-primary">
                 Iniciar proyecto
             </button>
 
