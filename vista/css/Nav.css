@@ -14,6 +14,7 @@
 
 .logo img {
     width: 110px;
+    border-radius: 50% 50%;
 }
 
 /* MENU */

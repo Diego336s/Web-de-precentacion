@@ -16,5 +16,5 @@ document.querySelectorAll(".mobile-menu a").forEach(link => {
 
 const iniciarProyecto = document.getElementById("iniciarProyecto");
 iniciarProyecto.addEventListener("click", () => {
-    window.location.href = "Contacto";
+    window.location.href = "Iniciar-Proyecto";
 });

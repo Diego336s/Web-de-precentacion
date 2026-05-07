@@ -12,7 +12,7 @@
             </svg>
             </i></a>
         <a href="Proceso">PROCESO</a>
-        <a href="Filosofia">FILOSOFÍA</a>
+        <a href="Nosotros">NOSOTROS</a>
         <a href="Contacto">CONTACTO</a>
     </nav>
 
@@ -32,7 +32,7 @@
         </svg>
     </a>
     <a href="Proceso">PROCESO</a>
-    <a href="Filosofia">FILOSOFÍA</a>
+    <a href="Nosotros">NOSOTROS</a>
     <a href="Contacto">CONTACTO</a>
     <button class="nav-btn">INICIAR PROYECTO →</button>
 </div>

@@ -1,10 +1,10 @@
-<div class="whatsapp-container hidden">
+<!-- <div class="whatsapp-container hidden">
 
     <div class="whatsapp-msg">
         ¿Hablamos por WhatsApp?
     </div>
 
-    <a href="https://wa.me/573000000000?text=Hola,%20quiero%20iniciar%20un%20proyecto%20web"
+    <a href="https://wa.me/573506213984?text=Hola,%20quiero%20iniciar%20un%20proyecto%20web"
         class="whatsapp-btn"
         target="_blank">
 
@@ -14,14 +14,14 @@
 
     </a>
 
-</div>
+</div> -->
 <footer>
-    <h2>Profecionales</h2>
+    <h2>Profesionales</h2>
       <p>Andres Salcedo - Desarrollador y marketing</p>
-    <p>Diego Sanabria - Analista y desarrollador de sofware</p>
+    <p>Diego Sanabria - Analista y desarrollador de software</p>
 </footer>
 
-<script src='vista\js\Whatsapp.js'></script>
+<!-- <script src='vista\js\Whatsapp.js'></script> -->
 <script src='vista\js\Nav.js'></script>
 </body>
 

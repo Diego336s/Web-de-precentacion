@@ -1,10 +1,10 @@
-    <link rel='stylesheet' type='text/css' media='screen' href='vista\css\Filosofia.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='vista\css\Nosotros.css'>
     <title>Filosofia - Weblify</title>
 <section class="philosophy-panel">
 
     <!-- HERO -->
     <div class="philosophy-hero">
-        <h2>Nuestra filosofía</h2>
+        <h2>Lema</h2>
         <p>No seguimos tendencias. Construimos soluciones que generan impacto real.</p>
     </div>
 
@@ -59,4 +59,4 @@
 
 </section>
 
-    <script src='vista\js\Filosofia.js'></script>
+    <script src='vista\js\Nosotros.js'></script>

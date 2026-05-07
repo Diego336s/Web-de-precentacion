@@ -1,5 +1,5 @@
 /* ========================= */
-/* 🧠 FILOSOFÍA */
+/* 🧠 NOSOTROS */
 /* ========================= */
 .philosophy-panel {
     padding: 120px 40px;
@@ -104,7 +104,7 @@
     position: absolute;
     width: 500px;
     height: 500px;
-    background: radial-gradient(circle, rgba(122,0,255,0.2), transparent 70%);
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.2), transparent 70%);
     top: -100px;
     left: -100px;
     filter: blur(100px);
