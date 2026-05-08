@@ -17,8 +17,9 @@
 </div> -->
 <footer>
     <h2>Profesionales</h2>
-      <p>Andres Salcedo - Ingeniero de Marketing y desarrollador</p>
-    <p>Diego Sanabria - Analista y desarrollador de software</p>
+      <p class="profesionales">Andres Salcedo - Ingeniero de Marketing y desarrollador</p>
+    
+    <p class="profesionales">Diego Sanabria - Analista y desarrollador de software</p>
 </footer>
 
 <!-- <script src='vista\js\Whatsapp.js'></script> -->
