@@ -10,7 +10,7 @@
     justify-content: space-between;
     align-items: center;
 
-    padding: 18px 40px;
+    padding:  10px 40px;
 
     background: rgba(10, 10, 10, 0.45);
     backdrop-filter: blur(16px);
@@ -22,8 +22,7 @@
 
 /* LOGO */
 .logo img {
-    width: 113px;
-    border-radius: 50%;
+    width: 130px;   
 }
 
 /* MENU DESKTOP */
@@ -281,7 +280,7 @@
 
     .nav {
         justify-content: space-between;
-        padding: 18px 20px;
+        padding: 10px 20px;
     }
 
     .logo {
@@ -311,7 +310,7 @@
 @media (min-width:768px) and (max-width:1024px) {
 
     .nav {
-        padding: 15px 30px;
+        padding: 8px 30px;
     }
 
     #menu a {
@@ -338,11 +337,4 @@
 /* ========================= */
 body.menu-open {
     overflow: hidden;
-}
-@media(max-width:767px){
-
-    .logo img{
-        width: 90px;
-    }
-
 }
