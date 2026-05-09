@@ -1,16 +1,13 @@
 FROM php:8.2-apache
 
-# Copiar proyecto
+# Copiar archivos
 COPY . /var/www/html/
 
-# Habilitar mod_rewrite
+# Habilitar mod_rewrite únicamente
 RUN a2enmod rewrite
 
 # Permisos
 RUN chown -R www-data:www-data /var/www/html
-
-# Railway usa PORT dinámico
-ENV PORT=80
 
 EXPOSE 80
 
