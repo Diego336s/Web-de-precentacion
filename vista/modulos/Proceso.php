@@ -1,4 +1,4 @@
-    <link rel='stylesheet' type='text/css' media='screen' href='vista\css\Proceso.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='vista/css/Proceso.css'>
     <title>Proceso - Weblify</title>
     <section class="process-panel">
 
@@ -49,4 +49,4 @@
 
     </section>
 
-    <script src='vista\js\Proceso.js'></script>
+    <script src='vista/js/Proceso.js'></script>

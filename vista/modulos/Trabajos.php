@@ -1,4 +1,4 @@
-<link rel='stylesheet' type='text/css' media='screen' href='vista\css\Trabajos.css'>
+<link rel='stylesheet' type='text/css' media='screen' href='vista/css/Trabajos.css'>
 <title>Trabajos - Weblify</title>
 <section class="portfolio-panel">
 
@@ -21,7 +21,7 @@
 
     <!-- PROYECTO 1 -->
     <div class="project" data-category="landing">
-        <img src="vista\IMG\Proyecto 1.png" alt="Fitness Web">
+        <img src="vista/IMG/Proyecto 1.png" alt="Fitness Web">
         <div class="overlay">
             <h3>Pulse Training</h3>
             <span>Landing · Fitness</span>
@@ -32,7 +32,7 @@
 
     <!-- PROYECTO 2 -->
     <div class="project" data-category="ecommerce">
-        <img src="vista\IMG\Proyecto 2.png" alt="Panadería">
+        <img src="vista/IMG/Proyecto 2.png" alt="Panadería">
         <div class="overlay">
             <h3>La Maison</h3>
             <span>E-commerce · Panadería</span>
@@ -43,7 +43,7 @@
 
     <!-- PROYECTO 3 -->
     <div class="project" data-category="ecommerce">
-        <img src="vista\IMG\Proyecto 3.png" alt="Café">
+        <img src="vista/IMG/Proyecto 3.png" alt="Café">
         <div class="overlay">
             <h3>Aurora Coffee</h3>
             <span>E-commerce · Café</span>
@@ -54,7 +54,7 @@
 
     <!-- PROYECTO 4 -->
     <div class="project" data-category="sistema">
-        <img src="vista\IMG\Proyecto 4.png" alt="Interior Design">
+        <img src="vista/IMG/Proyecto 4.png" alt="Interior Design">
         <div class="overlay">
             <h3>Nüva Interior</h3>
             <span>Sistema · Portafolio</span>
@@ -68,4 +68,4 @@
 </section>
 
 
-<script src='vista\js\Trabajos.js'></script>
+<script src='vista/js/Trabajos.js'></script>

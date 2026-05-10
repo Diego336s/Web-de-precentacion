@@ -13,9 +13,11 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <!-- Archivos personalizados -->
-    <link rel='stylesheet' type='text/css' media='screen' href='vista\css\Whatsapp.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='vista\css\Nav.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='vista\css\main.css'>
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='vista\css\Whatsapp.css'> -->
+    <link rel='stylesheet' type='text/css' media='screen' href='vista/css/Nav.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='vista/css/main.css'>
+
+    <link rel="icon" type="image/png" href="vista/IMG/Logo sin fondo.png">
 
 </head>
 

@@ -1,5 +1,5 @@
-    <link rel='stylesheet' type='text/css' media='screen' href='vista\css\Nosotros.css'>
-    <title>Filosofia - Weblify</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='vista/css/Nosotros.css'>
+    <title>Nosotros - Weblify</title>
 <section class="philosophy-panel">
 
     <!-- HERO -->
@@ -59,4 +59,4 @@
 
 </section>
 
-    <script src='vista\js\Nosotros.js'></script>
+    <script src='vista/js/Nosotros.js'></script>

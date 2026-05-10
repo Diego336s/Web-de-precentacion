@@ -1,4 +1,4 @@
-    <link rel='stylesheet' type='text/css' media='screen' href='vista\css\Inicio.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='vista/css/Inicio.css'>
     <title>Weblify</title>
 
 
@@ -30,18 +30,18 @@
 
         <div class="carousel">
             <div class="carousel-slide active">
-                <img src="vista\IMG\Proyecto 1.png" alt="">
+                <img src="vista/IMG/Proyecto 1.png" alt="">
             </div>
             <div class="carousel-slide">
-                <img src="vista\IMG\Proyecto 2.png" alt="">
+                <img src="vista/IMG/Proyecto 2.png" alt="">
             </div>
             <div class="carousel-slide">
-                <img src="vista\IMG\Proyecto 3.png" alt="">
+                <img src="vista/IMG/Proyecto 3.png" alt="">
             </div>
             <div class="carousel-slide">
-                <img src="vista\IMG\Proyecto 4.png" alt="">
+                <img src="vista/IMG/Proyecto 4.png" alt="">
             </div>
         </div>
     </section>
 
-    <script src='vista\js\Inicio.js'></script>
+    <script src='vista/js/Inicio.js'></script>

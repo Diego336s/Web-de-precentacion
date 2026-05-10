@@ -1,4 +1,4 @@
-<link rel='stylesheet' type='text/css' media='screen' href='vista\css\Contacto.css'>
+<link rel='stylesheet' type='text/css' media='screen' href='vista/css/Contacto.css'>
 <title>Contacto - Weblify</title>
 <section class="contact-panel">
 
@@ -116,4 +116,4 @@
 
 </section>
 
-<script src='vista\js\Contacto.js'></script>
+<script src='vista/js/Contacto.js'></script>
