@@ -17,7 +17,7 @@
     <link rel='stylesheet' type='text/css' media='screen' href='/vista/css/Nav.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='/vista/css/main.css'>
 
-    <link rel="icon" type="image/png" href="/vista/IMG/Logo sin fondo.png">
+    <link rel="icon" type="image/png" href="/vista/IMG/Weblify Logo.png">
 
 </head>
 

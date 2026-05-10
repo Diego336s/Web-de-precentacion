@@ -13,6 +13,8 @@
 .contact-hero {
     text-align: center;
     margin-bottom: 80px;
+    position: relative;
+    z-index: 1;
 }
 
 .contact-hero h2 {
@@ -31,13 +33,15 @@
     gap: 30px;
     max-width: 1200px;
     margin: auto;
+    position: relative;
+    z-index: 1;
 }
 
 /* CARD */
 .contact-card {
     background: #111;
     border: 1px solid #222;
-    border-radius: 16px;
+    border-radius: 8px;
     padding: 35px 25px;
     transition: 0.35s ease;
     position: relative;
@@ -98,6 +102,10 @@
     border: 1px solid #333;
     color: white;
     transition: 0.3s ease;
+    min-height: 44px;
+    min-width: 84px;
+    text-align: center;
+    touch-action: manipulation;
 }
 
 .contact-card a:hover {
@@ -145,6 +153,8 @@
     right: -150px;
     top: 100px;
     filter: blur(120px);
+    pointer-events: none;
+    z-index: 0;
 }
 
 /* ========================= */
@@ -191,7 +201,7 @@
 /* ========================= */
 /* 📲 TABLET */
 /* ========================= */
-@media(max-width:1024px){
+@media(min-width:769px) and (max-width:1024px){
 
     .contact-grid {
         grid-template-columns: repeat(2, 1fr);
