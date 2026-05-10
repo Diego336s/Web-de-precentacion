@@ -36,7 +36,7 @@
                 <img src="./vista/IMG/Proyecto 2.png" alt="">
             </div>
             <div class="carousel-slide">
-                <img src="vista/IMG/Proyecto 3.png" alt="">
+                <img src="/vista/IMG/Proyecto 3.png" alt="">
             </div>
             <div class="carousel-slide">
                 <img src="vista/IMG/Proyecto 4.png" alt="">
