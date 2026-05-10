@@ -30,7 +30,7 @@
 
         <div class="carousel">
             <div class="carousel-slide active">
-                <img src="./vista/IMG/Proyecto 1.png" alt="">
+                <img src="../IMG/Proyecto 1.png" alt="">
             </div>
             <div class="carousel-slide">
                 <img src="./vista/IMG/Proyecto 2.png" alt="">
