@@ -1,9 +1,7 @@
-FROM php:8.2-cli
+FROM php:8.2-apache
 
-WORKDIR /app
+COPY . /var/www/html/
 
-COPY . .
+RUN a2enmod rewrite
 
-EXPOSE 8080
-
-CMD php -S 0.0.0.0:${PORT:-8080} router.php
+EXPOSE 80
