@@ -21,7 +21,7 @@
 
     <!-- PROYECTO 1 -->
     <div class="project" data-category="landing">
-        <img src="vista/IMG/Proyecto 1.png" alt="Fitness Web">
+        <img src="../IMG/Proyecto 1.png" alt="Fitness Web">
         <div class="overlay">
             <h3>Pulse Training</h3>
             <span>Landing · Fitness</span>
@@ -32,7 +32,7 @@
 
     <!-- PROYECTO 2 -->
     <div class="project" data-category="ecommerce">
-        <img src="vista/IMG/Proyecto 2.png" alt="Panadería">
+        <img src="./vista/IMG/Proyecto 2.png" alt="Panadería">
         <div class="overlay">
             <h3>La Maison</h3>
             <span>E-commerce · Panadería</span>
