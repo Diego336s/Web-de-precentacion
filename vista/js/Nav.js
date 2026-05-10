@@ -32,7 +32,7 @@ iniciarProyectoBtns.forEach(btn => {
 
     btn.addEventListener("click", () => {
 
-        window.location.href = "Iniciar-Proyecto";
+        window.location.href = "/Iniciar-Proyecto";
 
     });
 

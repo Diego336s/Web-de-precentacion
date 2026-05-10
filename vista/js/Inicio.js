@@ -29,10 +29,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
 const btnTrabajemosJuntos = document.getElementById("btnTrabajemosJuntos");
 btnTrabajemosJuntos.addEventListener("click", () => {
-    window.location.href = "Contacto";
+    window.location.href = "/Contacto";
 });
 
 const btnTrabajos = document.getElementById("btnTrabajos");
 btnTrabajos.addEventListener("click", () => {
-    window.location.href = "Trabajos";
+    window.location.href = "/Trabajos";
 });

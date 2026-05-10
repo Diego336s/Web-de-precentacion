@@ -1,4 +1,4 @@
-<link rel='stylesheet' type='text/css' media='screen' href='vista/css/Iniciar-Proyecto.css'>
+<link rel='stylesheet' type='text/css' media='screen' href='/vista/css/Iniciar-Proyecto.css'>
 <title>Iniciar Proyecto - Weblify</title>
 <section class="contact">
 
@@ -28,4 +28,4 @@
 
 </section>
 
-<script src='vista/js/Iniciar-Proyecto.js'></script>
+<script src='/vista/js/Iniciar-Proyecto.js'></script>

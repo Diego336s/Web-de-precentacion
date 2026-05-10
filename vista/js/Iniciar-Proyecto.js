@@ -18,7 +18,7 @@ Swal.fire({
     icon: "success"
   });
   setTimeout(() => {
-      window.location.href = "Contacto";
+      window.location.href = "/Contacto";
     }, 1000);
 });
 });

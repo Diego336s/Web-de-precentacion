@@ -2,7 +2,7 @@
 <header class="nav">
     <div class="logo">
 
-        <img id="logo" src="vista/IMG/Logo sin fondo.png" alt="">
+        <img id="logo" src="/vista/IMG/Logo sin fondo.png" alt="">
     </div>
 
     <nav id="menu">

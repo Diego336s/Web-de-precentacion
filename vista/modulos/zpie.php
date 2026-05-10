@@ -23,7 +23,7 @@
 </footer>
 
 <!-- <script src='vista\js\Whatsapp.js'></script> -->
-<script src='vista/js/Nav.js'></script>
+<script src='/vista/js/Nav.js'></script>
 </body>
 
 </html>

@@ -2,7 +2,7 @@
 
 $path = parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH);
 
-$file = __DIR__ . $path;
+$file = __DIR__ . rawurldecode($path);
 
 /*
 |--------------------------------------------------------------------------
@@ -10,7 +10,7 @@ $file = __DIR__ . $path;
 |--------------------------------------------------------------------------
 */
 
-if ($path !== "/" && file_exists($file)) {
+if ($path !== "/" && is_file($file)) {
     return false;
 }
 
