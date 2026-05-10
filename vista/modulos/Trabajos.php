@@ -54,7 +54,7 @@
 
     <!-- PROYECTO 4 -->
     <div class="project" data-category="sistema">
-        <img src="vista/IMG/Proyecto 4.png" alt="Interior Design">
+        <img src="/vista/IMG/Proyecto 4.png" alt="Interior Design">
         <div class="overlay">
             <h3>Nüva Interior</h3>
             <span>Sistema · Portafolio</span>
